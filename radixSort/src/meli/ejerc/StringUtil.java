@@ -6,7 +6,10 @@ public class StringUtil
 	// Ejemplo: replicate('x',5) ==> 'xxxxx'
 	public static String replicate(char c, int n)
 	{
-		return "";
+		char[] array = new char[n];
+		for(int i=0;i<n;i++)
+			array[i] = c;
+		return String.valueOf(array);
 	}
 
 	// Retorna una cadena de longitud n, compuesta por s
@@ -15,6 +18,7 @@ public class StringUtil
 	// Ejemplo lpad("5",3,'0') ==> "005"
 	public static String lpad(String s, int n, char c)
 	{
+
 		return "";
 	}
 
@@ -22,6 +26,7 @@ public class StringUtil
 	// representados como cadenas de caracteres
 	public static String[] toStringArray(int arr[])
 	{
+
 		return null;
 	}
 
@@ -29,6 +34,7 @@ public class StringUtil
 	// representados como cadenas de caracteres
 	public static int[] toIntArray(String arr[])
 	{
+
 		return null;
 	}
 
@@ -36,6 +42,7 @@ public class StringUtil
 	// de caracteres del array arr
 	public static int maxLength(String arr[])
 	{
+
 		return 0;
 	}
 
@@ -43,5 +50,6 @@ public class StringUtil
 	// a la izquierda, dejando a todos con la longitud del mayor
 	public static void lNormalize(String arr[], char c)
 	{
+
 	}
 }

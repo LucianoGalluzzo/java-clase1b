@@ -5,6 +5,7 @@ public class RadixSortEjerc
 	public static void radixSort(int []arr)
 	{
 		// PROGRAMAR AQUI
+		System.out.println(StringUtil.replicate('0', 7));
 	}
 
 	public static void main(String[] args)
